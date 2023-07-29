@@ -1,5 +1,10 @@
 function showContent(){
-    const myImage = new Image(100,100);
-    myImage.src = "Content/LeSponge.jpg";
-    document.body.appendChild(myImage);
+    var x = document.getElementById("TestImage");
+    if(x.style.display === "none"){
+        x.style.display = "block";
+        document.getElementById("ShowButton").innerText = "Hide shown content";
+    } else{
+        x.style.display = "none";
+        document.getElementById("ShowButton").innerText = "Show hidden content";
+    }
 }
