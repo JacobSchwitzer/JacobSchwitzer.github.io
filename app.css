@@ -1,7 +1,20 @@
-h1{
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(HelveticaNeueCondensedBold.ttf);
+}
+
+div{
+    font-family: HelveticaNeue;
+}
+
+header{
     color : green;
+    font-family: HelveticaNeue;
 }
 
 body{
     background-color: bisque;
+    font-family: HelveticaNeue;
 }
+
+
